@@ -1,0 +1,53 @@
+.body_one{
+	height:100px;
+	width:80%;
+	margin:0 auto;
+	border:1px solid #F8F8F8;
+	background-color:#F8F8F8;
+}
+.searchbox{
+	width:80%;
+	height:35px;
+	margin-top:28px;
+	margin-left:27%;
+}
+.search{
+	float:left;
+	line-height:32px;
+	outline:none;
+	border:1px solid red;
+	height:32px;
+	width:51.5%;
+}
+.getsearch{
+	float:left;
+	width:5%;
+	height:34px;
+	background-color:red;
+}
+.shopping{
+	color:red;
+	display:block;
+	float:left;
+	background-color:white;
+	margin-left:4%;
+	height:32px;
+	width:200px;
+	font-size:12px;
+	text-align:center;
+	line-height:32px;
+}
+.searchul{
+	list-style:none;
+	margin-left:26.5%;
+	font-size:12px;
+	margin-top:2px;
+	color:#C0C0C0;
+}
+.searchul li{
+	float:left;
+	margin-left:1%;
+}
+.searchul li:nth-child(1){
+	color:red;
+}
