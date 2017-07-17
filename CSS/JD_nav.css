@@ -1,1 +1,7 @@
-JD_nav.css
+/*综合导航栏*/
+.body_two{
+	width:80%;
+	height:240px;
+	margin: 0 auto;
+	background-color:blue;
+}
