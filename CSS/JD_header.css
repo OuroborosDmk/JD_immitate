@@ -1,3 +1,4 @@
+/*页头以及通用部分*/
 *{
 	border:0;
 	padding:0;
@@ -30,7 +31,7 @@ header{
 	width:45%;
 	float:right;
 	margin-right:10%;
-	margin-top:8px;
+	margin-top:4px;
 }
 .firstnav li{
 	float:left;
@@ -39,7 +40,7 @@ header{
 .firstnav p{
 	font-size:12px;
 	color:#C0C0C0;
-	
+	margin-top:3px;
 }
 .firstnav a{
 	font-size:12px;
