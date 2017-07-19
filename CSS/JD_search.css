@@ -9,7 +9,7 @@
 .searchbox{
 	width:80%;
 	height:35px;
-	margin-top:28px;
+	margin-top:27px;
 	margin-left:27%;
 }
 .search{
@@ -42,13 +42,19 @@
 	list-style:none;
 	margin-left:26.5%;
 	font-size:12px;
-	margin-top:2px;
+	margin-top:3px;
 	color:#C0C0C0;
+}
+.searchul a{
+	color:#C0C0C0;
+}
+.searchul a:hover{
+	color:red;
+}
+.searchul li:nth-child(1) a{
+	color:red;
 }
 .searchul li{
 	float:left;
 	margin-left:1%;
-}
-.searchul li:nth-child(1){
-	color:red;
 }

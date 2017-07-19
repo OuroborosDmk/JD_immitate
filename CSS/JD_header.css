@@ -7,7 +7,7 @@
 	list-style:none;
 }
 body{
-	width:100%;
+	min-width:1000px;
 	background-color:#F8F8F8;
 }
 header{
@@ -28,9 +28,9 @@ header{
 	display:none;
 }
 .firstnav{
-	width:45%;
+	width:650px;
 	float:right;
-	margin-right:10%;
+	margin-right:15%;
 	margin-top:4px;
 }
 .firstnav li{
