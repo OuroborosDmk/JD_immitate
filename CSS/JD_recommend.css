@@ -1,1 +1,71 @@
-JD_recommend.css
+/*综合推荐*/
+.body_four{
+	width:1200px;
+	height:444px;
+	margin: 0 auto;
+	margin-top:35px;
+}
+.body_four > div{
+	width:390px;
+	height:444px;
+	box-sizing:border-box;
+}
+.body_four_one{
+	float:left;
+}
+.body_four_one > div:nth-child(1){
+	width:100%;
+	height:55px;
+	background-image:url(../images/发现好货.png);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+}
+.body_four_one > div:nth-child(1) a{
+	color:white;
+	position:relative;
+	top:20px;
+	left:270px;
+	font-size:14px;
+}
+.body_four_one > div:nth-child(2){
+	width:100%;
+	padding:10px;
+	height:389px;
+}
+.body_four_one > div:nth-child(2) a{
+
+}
+.body_four_two{
+	margin: 0 auto;
+}
+.body_four_two > div:nth-child(1){
+	width:100%;
+	height:55px;
+	background-image:url(../images/会买专辑.png);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+}
+.body_four_two > div:nth-child(1) a{
+	color:white;
+	position:relative;
+	top:20px;
+	left:270px;
+	font-size:14px;
+}
+.body_four_three{
+	float:right;
+}
+.body_four_three > div{
+	width:100%;
+	height:55px;
+	background-image:url(../images/排行榜.png);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+}
+.body_four_three > div a{
+	color:white;
+	position:relative;
+	top:20px;
+	left:250px;
+	font-size:14px;
+}
