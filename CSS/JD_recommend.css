@@ -12,44 +12,67 @@
 }
 .body_four_one{
 	float:left;
+	background-color:white;
 }
-.body_four_one > div:nth-child(1){
+.body_four_one > div{
 	width:100%;
 	height:55px;
 	background-image:url(../images/发现好货.png);
 	background-size:100% auto;
 	background-repeat:no-repeat;
 }
-.body_four_one > div:nth-child(1) a{
+.body_four_one > div a{
 	color:white;
 	position:relative;
 	top:20px;
 	left:270px;
 	font-size:14px;
 }
-.body_four_one > div:nth-child(2){
+.body_four_one ul{
 	width:100%;
 	padding:10px;
 	height:389px;
+	list-style:none;
 }
-.body_four_one > div:nth-child(2) a{
+.body_four_one ul p{
+	width:80px;
+	height:30px;
+	font-size:14px;
+	margin-left:20px;
+	margin-top:10px;
+	float:left;
+}
+.body_four_one ul img{
+	margin-top:-10px;
+	float:right;
+	width:80px;
+	height:80px;
+	margin-right:10px;
+}
+.body_four_one li{
+	width:46%;
+	box-sizing:border-box;
+	float:left;
+}
+.body_four_one li:nth-child(1),li:nth-child(3){
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+.body_four_one li:nth-child(2),li:nth-child(4){
+	border-bottom:1px solid #eee;
+}
+.body_four_one li:nth-child(5){
+	border-right:1px solid #eee;
+}
+.body_four_one ul a{
 	float:left;
 	display:block;
-	width:185px;
+	width:180px;
 	height:120px;
-}
-.body_four_one > div:nth-child(2) > a:nth-child(1){
-	border-right:1px solid black;
-	border
-}
-.body_four_one > div:nth-child(2) > a:nth-child(3){
-	border-right:1px solid black;
-}
-.body_four_one > div:nth-child(2) > a:nth-child(5){
-	border-right:1px solid black;
 }
 .body_four_two{
 	margin: 0 auto;
+	background-color:white;
 }
 .body_four_two > div:nth-child(1){
 	width:100%;
@@ -65,8 +88,49 @@
 	left:270px;
 	font-size:14px;
 }
+.body_four_two img{
+	margin-left:5px;
+	margin-right:5px;
+	width:110px;
+	height:110px;
+}
+.body_four_two > a p{
+	margin-left:15px;
+	font-size:14px;
+	color:black;
+	margin-bottom:15px;
+}
+.body_four_two > a{
+	display:block;
+	height:150px;
+	width:360px;
+	margin:0 auto;
+	margin-bottom:20px;
+	padding-top:15px;
+}
+.body_four_two > a:nth-child(2){
+	border-bottom:1px solid #C0C0C0;
+}
+.body_four_two > ul{
+	width:100px;
+	height:20px;
+	margin:0 auto;
+	list-style:none;
+}
+.body_four_two > ul li{
+	width:7px;
+	height:7px;
+	margin-left:12px;
+	border-radius:50%;
+	background-color:#eee;
+	float:left;
+}
+.body_four_two > ul li:hover{
+	background-color:red;
+}
 .body_four_three{
 	float:right;
+	background-color:white;
 }
 .body_four_three > div{
 	width:100%;
