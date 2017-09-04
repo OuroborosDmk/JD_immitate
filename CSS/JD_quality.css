@@ -15,6 +15,7 @@
 	height:33px;
 	margin: 0 auto;
 	font-size:30px;
+	text-align:center;
 }
 .body_seven_two{
 	width:1200px;
@@ -30,6 +31,7 @@
 	width:400px;
 	height:530px;
 	float:left;
+	position:relative;
 }
 .body_seven_three a{
 	float:left;
@@ -40,51 +42,226 @@
 	margin-top:20px;
 }
 .body_seven_three a > img{
-	width:;
-	height:;
+	width:240px;
+	height:170px;
 }
 .body_seven_three a > div{
-	width:;
+	width:140px;
+	height:170px;
+	float:left;
+	padding-top:40px;
+	box-sizing:border-box;
+}
+.body_seven_three a > div > h4{
+	display:block;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	width:100px;
+	height:44px;
+	text-align:center;
+	color:white;
+	font-size:20px;
+	font-weight:normal;
+	margin:0 auto;
+	margin-bottom:5px;
+}
+.body_seven_three a > div > p{
+	display:block;
+	width:100px;
+	height:32px;
+	color:white;
+	margin:0 auto;
+	font-size:14px;
 }
 .body_seven_three a:nth-child(1){
 	margin-top:0;
 	background-color:white;
 }
+.body_seven_three a:nth-child(1) div{
+	background-color:rgb(147,187,145);
+}
 .body_seven_three a:nth-child(2){
 	margin-top:0;
 	background-color:white;
 }
+.body_seven_three a:nth-child(2) div{
+	background-color:rgb(220,209,120);
+}
 .body_seven_three a:nth-child(3){
 	background-color:white;
+}
+.body_seven_three a:nth-child(3) div{
+	background-color:rgb(92,85,102);
 }
 .body_seven_three a:nth-child(4){
 	background-color:white;
 }
+.body_seven_three a:nth-child(4) div{
+	background-color:rgb(72,139,148);
+}
 .body_seven_three a:nth-child(5){
 	background-color:white;
+}
+.body_seven_three a:nth-child(5) div{
+	background-color:rgb(215,143,39);
 }
 .body_seven_three a:nth-child(6){
 	background-color:white;
 }
-.body_seven_four a{
-	display:block;
+.body_seven_three a:nth-child(6) div{
+	background-color:rgb(134,99,79);
 }
-.body_seven_four a:nth-child(1){
+.video{
+	display:block;
 	width:400px;
 	height:360px;
 	background-color:white;
 	margin-bottom:20px;
+	background-image:url("../images/sign.jpg");
 }
-.body_seven_four a:nth-child(2){
+.video_1{
+	background-color:black;
+	opacity:0.4;
+	width:100%;
+	height:40px;
+}
+.video_1 > p:nth-child(1){
+	position:relative;
+	top:10px;
+	left:30px;
+	font-size:15px;
+	color:white;
+}
+.video_1 > p:nth-child(2){
+	position:relative;
+	top:-10px;
+	left:320px;
+	font-size:14px;
+	color:white;
+}
+.video_2{
+	display:block;
+	background-color:white;
+	position:absolute;
+	border-radius:50%;
+	width:70px;
+	height:70px;
+	top:145px;
+	left:165px;
+	border:1px solid black;
+}
+.video_3{
+	position:absolute;
+	display:block;
+	background-color:black;
+	width:20px;
+	height:50px;
+	line-height:49px;
+	text-align:center;
+	opacity:0.5;
+	top:155px;
+	color:white;
+}
+.video_4{
+	position:absolute;
+	display:block;
+	background-color:black;
+	width:20px;
+	height:50px;
+	line-height:49px;
+	text-align:center;
+	opacity:0.5;
+	top:155px;
+	right:0;
+	color:white;
+}
+.video_5{
+	position:absolute;
+	color:black;
+	top:285px;
+	left:100px;
+	font-size:17px;
+	font-weight:bold;
+}
+.video_6{
+	position:absolute;
+	color:black;
+	top:310px;
+	left:140px;
+	font-size:14px;
+}
+.video_7{
+	position:absolute;
+	top:340px;
+	left:160px;
+}
+.video_7 li{
+	float:left;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:black;
+	margin-left:5px;
+}
+.video_7 li:hover{
+	background-color:red;
+}
+.strange_one{
+	display:block;
 	width:190px;
 	height:170px;
 	float:left;
 	background-color:white;
 }
-.body_seven_four a:nth-child(3){
+.strange_two{
+	display:block;
 	width:190px;
 	height:170px;
 	margin-left:20px;
 	float:left;
 	background-color:white;
+}
+.strange_one img,.strange_two img{
+	width:190px;
+	height:170px;
+	position:relative;
+	z-index:1;
+}
+.strange_one div,.strange_two div{
+	width:190px;
+	height:90px;
+	position:relative;
+	z-index:20;
+	opacity:0.9;
+	padding-top:10px;
+	box-sizing:border-box;
+	bottom:90px;
+}
+.strange_one h4,.strange_two h4{
+	display:block;
+	width:100px;
+	height:30px;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	font-weight:normal;
+	text-align:center;
+	color:white;
+	margin:0 auto;
+	font-size:15px;
+	line-height:29px;
+	margin-bottom:10px;
+}
+.strange_one p,.strange_two p{
+	display:block;
+	width:190px;
+	height:32px;
+	color:white;
+	text-align:center;
+	font-size:15px;
+}
+.strange_one div{
+	background-color:rgb(175,69,62);
+}
+.strange_two div{
+	background-color:rgb(107,49,107);
 }
