@@ -1,5 +1,6 @@
 /*搜索框以及过渡部分*/
 .body_one{
+	min-width:1400px;
 	height:100px;
 	width:80%;
 	margin:0 auto;
@@ -7,10 +8,10 @@
 	background-color:#F8F8F8;
 }
 .searchbox{
-	width:80%;
+	width:70%;
 	height:35px;
 	margin-top:27px;
-	margin-left:27%;
+	margin-left:30%;
 }
 .search{
 	float:left;
@@ -18,7 +19,7 @@
 	outline:none;
 	border:1px solid red;
 	height:32px;
-	width:51.5%;
+	width:60%;
 }
 .getsearch{
 	float:left;

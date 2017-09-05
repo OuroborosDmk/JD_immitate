@@ -5,12 +5,17 @@
 	margin:0;
 	text-decoration:none;
 	list-style:none;
+	/*background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;*/
+    /*以上三行用来解决某个元素某个时间突然出现突破天际的宽度*/
 }
 body{
-	min-width:1000px;
+	min-width:1400px;
 	background-color:#F8F8F8;
 }
 header{
+	min-width:1400px;
 	width:100%;
 	height:32px;
 	background-color:#eee;
