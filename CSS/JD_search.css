@@ -8,10 +8,10 @@
 	background-color:#F8F8F8;
 }
 .searchbox{
-	width:70%;
+	width:75%;
 	height:35px;
 	margin-top:27px;
-	margin-left:30%;
+	margin-left:27%;
 }
 .search{
 	float:left;
@@ -19,7 +19,7 @@
 	outline:none;
 	border:1px solid red;
 	height:32px;
-	width:60%;
+	width:50%;
 }
 .getsearch{
 	float:left;

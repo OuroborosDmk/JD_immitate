@@ -25,6 +25,9 @@ header{
 	margin-left:25%;
 	margin-top:8px;
 }
+.location li{
+	width:40px;
+}
 .location p{
 	font-size:12px;
 	color:#C0C0C0;
