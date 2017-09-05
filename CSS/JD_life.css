@@ -222,7 +222,6 @@
 	width:1200px;
 	height:2800px;
 	margin:0 auto;
-	border-bottom:1px solid black;
 }
 .body_nine > div:nth-child(even){
 	float:left;
