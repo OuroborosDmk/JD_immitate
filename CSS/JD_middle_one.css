@@ -1,8 +1,8 @@
-/*广告栏第一栏*/
+/*广告栏*/
 .body_six{
 	width:100%;
 	height:100px;
-	margin-top:40px;
+	margin-top:30px;
 	background-color:rgb(224,224,224);
 }
 .body_six div{
