@@ -1,1 +1,49 @@
-JD_life.css
+/*爱生活*/
+.body_eight{
+	width:1200px;
+	height:4000px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.body_eight > div:nth-child(odd){
+	float:left;
+}
+.body_eight > div:nth-child(even){
+	float:right;
+}
+.one_life_1{
+	width:590px;
+	height:525px;
+	border:1px solid black;
+}
+.one_life_2{
+	width:100%;
+	height:60px;
+	background-color:purple;
+}
+.one_life_2 > h3{
+	float:left;
+	margin-left:20px;
+	margin-top:17px;
+	color:white;
+}
+.one_life_2 > div{
+	width:22px;
+	height:22px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	background-image:url("../images/107241.jpg");
+}
+.one_life_2 > a{
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+	display:block;
+	color:white;
+	text-align:center;
+}
+.one_life_3{
+	width:100%;
+	height:465px;
+}
