@@ -95,8 +95,6 @@
 	float:left;
 }
 .one_life_3_9{
-	width:569px;
-	height:35px;
 	margin-left:10px;
 }
 .one_life_3_9 li{
@@ -148,12 +146,87 @@
 	width:100px;
 	height:90px;
 	float:right;
-	margin-right:18px;
+	margin-right:13px;
 	margin-top:-60px;
 }
 .two_life_1{
 	margin-top:30px;
 	width:1200px;
 	height:525px;
-	border:1px solid black;
+	background-color:white;
+}
+.two_life_2{
+	width:100%;
+	height:60px;
+	background-color:purple;
+}
+.two_life_2 > h3{
+	float:left;
+	margin-left:20px;
+	margin-top:17px;
+	color:white;
+	font-size:20px;
+	font-weight:normal;
+}
+.two_life_2 > div{
+	width:22px;
+	height:22px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	background-image:url("../images/sign.jpg");
+}
+.two_life_2 > a{
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+	display:block;
+	color:white;
+	text-align:center;
+}
+.two_life_3{
+	width:598px;
+	height:400px;
+	margin-top:10px;
+	border-right:1px solid #C0C0C0;
+	float:left;
+	background-color:white;
+}
+.two_life_4{
+	width:600px;
+	height:400px;
+	margin-top:10px;
+	float:left;
+	background-color:white;
+}
+.two_life_3_5{
+	margin-left:28.5px;
+}
+.two_life_3_5 li{
+	width:94px;
+	height:20px;
+	float:left;
+	border-right:1px solid #C0C0C0;
+	text-align:center;
+	margin-top:19px;
+}
+.two_life_3_5 img{
+	width:70px;
+	height:35px;
+	margin-top:-8px;
+}
+.two_life_3_5 li:nth-child(12){
+	border:none;
+}
+.body_nine{
+	width:1200px;
+	height:2800px;
+	margin:0 auto;
+	border-bottom:1px solid black;
+}
+.body_nine > div:nth-child(even){
+	float:left;
+}
+.body_nine > div:nth-child(odd){
+	float:right;
 }
