@@ -1,1 +1,42 @@
-JD_notenough.css
+/*还没逛够*/
+.body_eleven{
+	width:1200px;
+	height:2050px;
+	margin:0 auto;
+}
+.body_eleven > div:nth-child(1){
+	margin-top:20px;
+}
+.body_eleven_one a{
+	display:block;
+	width:230px;
+	height:315px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	box-sizing:border-box;
+	background-color:white;
+}
+.body_eleven_one a:hover{
+	border:1px solid red;
+}
+.body_eleven_one a:hover p{
+	color:red;
+}
+.body_eleven_one > a > img{
+	width:220px;
+	height:220px;
+	margin-top:5px;
+	margin-left:5px;
+}
+.body_eleven_one > a > p{
+	display:block;
+	width:200px;
+	height:36px;
+	margin-left:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.body_eleven_one > a > span{
+	color:red;
+}
