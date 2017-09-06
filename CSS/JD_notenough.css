@@ -15,6 +15,7 @@
 	margin-right:10px;
 	margin-top:10px;
 	box-sizing:border-box;
+	border:1px solid white;
 	background-color:white;
 }
 .body_eleven_one a:hover{
@@ -28,15 +29,18 @@
 	height:220px;
 	margin-top:5px;
 	margin-left:5px;
+	margin-bottom:5px;
 }
 .body_eleven_one > a > p{
 	display:block;
 	width:200px;
 	height:36px;
-	margin-left:5px;
-	margin-bottom:5px;
-	margin-top:5px;
+	margin: 0 auto;
+	color:#808080;
+	font-size:12px;
 }
 .body_eleven_one > a > span{
 	color:red;
+	font-size:12px;
+	margin-left:14px;
 }

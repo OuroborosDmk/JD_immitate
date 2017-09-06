@@ -1,1 +1,6 @@
-JD_footer.css
+/*页脚*/
+footer{
+	background-color:#C0C0C0;
+	width:100%;
+	height:200px;
+}
