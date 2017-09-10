@@ -158,7 +158,7 @@
 .two_life_2{
 	width:100%;
 	height:60px;
-	background-color:rgb(153,69,188);
+	background-color:rgb(67,136,166);
 }
 .two_life_2 > h3{
 	float:left;
@@ -234,4 +234,40 @@
 }
 .jiadianguan{
 	background-color: rgb(115,77,139);
+}
+.gaojipai{
+	background-color:rgb(89,104,143);
+}
+.wan3C{
+	background-color:rgb(53,166,164);
+}
+.aiyundong{
+	background-color:rgb(81,137,120);
+}
+.aichi{
+	background-color:rgb(236,176,40);
+}
+.aibaobao{
+	background-color:rgb(227,100,59);
+}
+.aijia{
+	background-color:rgb(160,99,62);
+}
+.aiyundu{
+	background-color:rgb(112,88,81);
+}
+.aiche{
+	background-color:rgb(131,75,75);
+}
+.aiyouxi{
+	background-color:rgb(94,93,154);
+}
+.jingdongjinrong{
+	background-color:rgb(83,108,82);
+}
+.shenghuolvxing{
+	background-color:rgb(77,117,151);
+}
+.aijiankang{
+	background-color:rgb(111,135,44);
 }
